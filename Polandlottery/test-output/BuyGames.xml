@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test thread-count="5" name="monetki">
+  <parameter name="browser" value="ie"></parameter>
+    <classes>
+      <class name="PlLottery.BuyGames">
+      <methods>
+      <include name="monetki"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+<test thread-count="5" name="gp">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="PlLottery.BuyGames">
+      <methods>
+      <include name="gp"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+<test thread-count="5" name="Gwiazdki">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="PlLottery.BuyGames">
+      <methods>
+      <include name="Gwiazdki"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+<test thread-count="5" name="Kamyki">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="PlLottery.BuyGames">
+      <methods>
+      <include name="Kamyki"></include>
+      </methods>
+      </class>
+    </classes>
+  </test>
+<test thread-count="5" name="Kurki">
+  <parameter name="browser" value="ie"></parameter>
+    <classes>
+      <class name="PlLottery.BuyGames">
+      <methods>
+      <include name="Kurki"></include>
+      </methods>
+      </class>
+    </classes>
+  </test>
+<test thread-count="5" name="Totemki">
+  <parameter name="browser" value="ie"></parameter>
+    <classes>
+      <class name="PlLottery.BuyGames">
+      <methods>
+      <include name="Totemki"></include>
+      </methods>
+      </class>
+    </classes>
+  </test>
+<test thread-count="5" name="Skrzynki">
+  <parameter name="browser" value="ie"></parameter>
+    <classes>
+      <class name="PlLottery.BuyGames">
+      <methods>
+      <include name="Skrzynki"></include>
+      </methods>
+      </class>
+    </classes>
+  </test>
+<test thread-count="5" name="Owocki">
+  <parameter name="browser" value="ie"></parameter>
+    <classes>
+      <class name="PlLottery.BuyGames">
+      <methods>
+      <include name="Owocki"></include>
+      </methods>
+      </class>
+    </classes>
+  </test>
+<test thread-count="5" name="krzyowki">
+  <parameter name="browser" value="ie"></parameter>
+    <classes>
+      <class name="PlLottery.BuyGames">
+      <methods>
+      <include name="krzyowki"></include>
+      </methods>
+      </class>
+    </classes>
+  </test>
+<test thread-count="5" name="znaczki">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="PlLottery.BuyGames">
+      <methods>
+      <include name="znaczki"></include>
+      </methods>
+      </class>
+    </classes>
+  </test>
+<test thread-count="5" name="Siódemki">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="PlLottery.BuyGames">
+      <methods>
+      <include name="Siódemki"></include>
+      </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
+
+ 

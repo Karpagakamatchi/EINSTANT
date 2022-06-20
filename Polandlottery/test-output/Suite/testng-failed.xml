@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="monetki(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="PlLottery.login">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="monetki"/>
+        </methods>
+      </class> <!-- PlLottery.login -->
+    </classes>
+  </test> <!-- monetki(failed) -->
+  <test thread-count="5" name="gp(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="PlLottery.login">
+        <methods>
+          <include name="gp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- PlLottery.login -->
+    </classes>
+  </test> <!-- gp(failed) -->
+  <test thread-count="5" name="Gwiazdki(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="PlLottery.login">
+        <methods>
+          <include name="Gwiazdki"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- PlLottery.login -->
+    </classes>
+  </test> <!-- Gwiazdki(failed) -->
+  <test thread-count="5" name="Kamyki(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="PlLottery.login">
+        <methods>
+          <include name="Kamyki"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- PlLottery.login -->
+    </classes>
+  </test> <!-- Kamyki(failed) -->
+  <test thread-count="5" name="Kurki(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="PlLottery.login">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="Kurki"/>
+        </methods>
+      </class> <!-- PlLottery.login -->
+    </classes>
+  </test> <!-- Kurki(failed) -->
+  <test thread-count="5" name="Totemki(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="PlLottery.login">
+        <methods>
+          <include name="Totemki"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- PlLottery.login -->
+    </classes>
+  </test> <!-- Totemki(failed) -->
+  <test thread-count="5" name="Skrzynki(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="PlLottery.login">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="Skrzynki"/>
+        </methods>
+      </class> <!-- PlLottery.login -->
+    </classes>
+  </test> <!-- Skrzynki(failed) -->
+  <test thread-count="5" name="Owocki(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="PlLottery.login">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="Owocki"/>
+        </methods>
+      </class> <!-- PlLottery.login -->
+    </classes>
+  </test> <!-- Owocki(failed) -->
+  <test thread-count="5" name="krzyowki(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="PlLottery.login">
+        <methods>
+          <include name="krzyowki"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- PlLottery.login -->
+    </classes>
+  </test> <!-- krzyowki(failed) -->
+  <test thread-count="5" name="znaczki(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="PlLottery.login">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="znaczki"/>
+        </methods>
+      </class> <!-- PlLottery.login -->
+    </classes>
+  </test> <!-- znaczki(failed) -->
+  <test thread-count="5" name="Siódemki(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="PlLottery.login">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="Siódemki"/>
+        </methods>
+      </class> <!-- PlLottery.login -->
+    </classes>
+  </test> <!-- Siódemki(failed) -->
+</suite> <!-- Failed suite [Suite] -->
