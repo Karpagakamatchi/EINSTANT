@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="CelticClouds">
+<parameter name="browser" value="chrome"></parameter>
+     <classes>
+      <class name="MNS.MNSGLLT">
+      <methods>
+      <include name="CelticClouds"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- MNSGLLTRUN -->
+<test thread-count="5" name="Ruby7">
+<parameter name="browser" value="ie"></parameter>
+     <classes>
+      <class name="MNS.MNSGLLT">
+      <methods>
+      <include name="Ruby7"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- MNSGLLTRUN -->
+<test thread-count="5" name="Lucky7">
+<parameter name="browser" value="chrome"></parameter>
+     <classes>
+      <class name="MNS.MNSGLLT">
+      <methods>
+      <include name="Lucky7"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- MNSGLLTRUN -->
+</suite> <!-- Suite -->
